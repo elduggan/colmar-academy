@@ -1,10 +1,61 @@
 
 html {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
 }
 
-ul {
+.nav-bar {
+    height: 64px;
+    background-color: whitesmoke;
+    margin:0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+}
+.logo-img {
+   
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo-text {
+    display: flex;
+    height: 16px;
+    flex: 1;
+    
+}
+
+.nav-bar ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 10;
     padding: 0;
+    display: flex;
+    
+  }
+
+
+  .nav-bar li {
+    margin-top: 0;
+    
+  }
+  .nav-bar li a {
+      text-align: center;
+      color: #333;
+      text-decoration: none;
+      font-weight: 400;
+      
+  }
+
+  .nav-bar a {
+      display: flex;
+      margin-top: 0;
+      text-decoration: none;
+      padding-left: 16px;
+      padding-right: 16px;
+      justify-content: right;
+      
   }
