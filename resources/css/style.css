@@ -2,6 +2,7 @@
 html {
     background-color: whitesmoke;
     font-family: "Roboto", sans-serif;
+    overflow: hidden;
 }
 
 .nav-bar {
@@ -10,12 +11,13 @@ html {
     margin:0;
     display: flex;
     align-items: center;
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     
 }
 
 
-}
 .logo-img {
    
     margin-top: 30px;
@@ -47,6 +49,7 @@ html {
       color: #333;
       text-decoration: none;
       font-weight: 400;
+      padding-right: 24px;
       
   }
 
@@ -58,4 +61,47 @@ html {
       padding-right: 16px;
       justify-content: right;
       
+  }
+  
+  .cta {
+      background: lightslategray;  
+      top: 64px;
+      bottom: 32px;
+      width: 100%;
+      display: flex;
+      position: relative;
+      height: 700px;
+      padding: 24px;
+      
+  }
+
+  button {
+    border: none;
+    color: darkgray;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 32px;
+    width: 200px;
+  }
+
+  .cta-banner {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    display: flex;
+
+    
+  }
+
+  .cta-start {
+    width: 30%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    align-self: center;
+    
   }
