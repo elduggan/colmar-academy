@@ -173,14 +173,13 @@ nav {
   
   .content-image-box:first-child {
     padding-top: 1rem;
-    border-bottom: 1px solid rgb(57,57,57);
+    border-bottom: 1px solid rgb(10, 48, 51);
   }
   
   .content-image-box:last-child {
     padding-bottom: 1rem;
     border-top: 1px solid rgb(57,57,57);
     transition-property: all;
-    
     
   }
   
@@ -289,5 +288,35 @@ nav {
     color: rgb(10, 48, 51);
   }
 
+  footer {
+    padding: 1rem 1.5rem;
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: row;
+    border-top:1px solid rgb(90, 114, 113);
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  footer a {
+    margin: 1rem;
+    
+  }
+
+  .links {
+    flex-direction: row;
+    text-align: center;
+    padding-top: 16px;
+  }
 }
- 
+@media only screen and (max-width:999px)
+ {
+   nav ul {
+     display:none;
+   }
+   .logo-text {
+     display:none;
+   }
+
+ }
